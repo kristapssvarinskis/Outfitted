@@ -1,12 +1,10 @@
 import { UserButton } from "@clerk/nextjs";
-import Link from "next/link";
 
-const links = ["Outfitted"]
 export default function Home() {
   return (
   <div>  
     <div className="flex items-center justify-around p-5 text-2xl">
-        <a href="../MainPage">Outfitted</a>
+        <a href="../">Outfitted</a>
       <div>
       <UserButton afterSignOutUrl="/"/>
       </div>
